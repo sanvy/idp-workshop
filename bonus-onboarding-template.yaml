@@ -48,7 +48,7 @@ spec:
       name: Creating your data science project
       action: trigger:harness-custom-pipeline
       input:
-        url: "https://workshop.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/module/idp-admin/orgs/lab289org/projects/sanvyslab2890/pipelines/-1/pipeline-studio?storeType=INLINE&stageId=Service_Onboarding&sectionId=EXECUTION"
+        url: https://workshop.harness.io/ng/account/IFG41DWvSnaRLOVNB2uesg/module/ci/orgs/lab289org/projects/sanvyslab2890/pipelines/Onboard_New_Data_Science_Service/pipeline-studio?storeType=INLINE&stageId=Service_Onboarding&sectionId=EXECUTION
         inputset:
           project_name: ${{ parameters.project_name }}
           feature_branch: ${{ parameters.feature_branch }}
